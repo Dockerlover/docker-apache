@@ -3,7 +3,7 @@ Docker化apache
 
 ## 镜像特点
 
-- 2015/6/29 继承基础镜像docker-ubuntu
+- 2015/7/3 继承基础镜像docker-ubuntu
 
 ## 使用方法
 
