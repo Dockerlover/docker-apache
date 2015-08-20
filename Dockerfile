@@ -6,7 +6,7 @@ MAINTAINER  liuhong1.happy@163.com
 ENV USER_NAME admin
 ENV SERVICE_ID apache
 # 安装apache
-RUN apt-get update && apt-get -y install apache2 && rm -rf /var/lib/apt/lists/* 
+RUN apt-get update && apt-get -y install apache2 git-core && rm -rf /var/lib/apt/lists/* 
 # 配置相关环境
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
 ENV ALLOW_OVERRIDE **False**
